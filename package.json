@@ -1,0 +1,23 @@
+{
+  "name": "node-teacher-crud",
+  "version": "1.0.0",
+  "description": "This is acadgild assignment to test rest apis through crud operation",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nidhi16/NodeJs_Session14_Assignment2.git"
+  },
+  "author": "Nidhi Sinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nidhi16/NodeJs_Session14_Assignment2/issues"
+  },
+  "homepage": "https://github.com/Nidhi16/NodeJs_Session14_Assignment2#readme",
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*"
+  }
+}

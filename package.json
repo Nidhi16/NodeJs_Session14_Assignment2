@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/Nidhi16/NodeJs_Session14_Assignment2#readme",
   "dependencies": {
+    "body-parser": "*",
     "express": "*",
-    "body-parser": "*"
+    "mongoose": "^4.13.7"
   }
 }

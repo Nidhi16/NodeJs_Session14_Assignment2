@@ -7,7 +7,7 @@ var teacherSchema = new Schema({
     gender: String,
     department: String,
     school: String,
-    joining_date: Date,
+    joining_date: Date
 });
 
 var Teacher = mongoose.model('Teacher', teacherSchema);

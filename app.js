@@ -1,7 +1,21 @@
 var express = require('express');
+var mongoose = require('mongoose');
+var bodyParser = require('body-parser');
+var teachers = require('./routes/teacher');
+
 var app = express();
 
-var teachers = require('./routes/teacher'); 
+//connect to our database
+//Ideally you will obtain DB details from a config file
+
+var dbName='teacherDB';
+
+var connectionString='mongodb://localhost:27017/'+dbName;
+
+mongoose.connect(connectionString);
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded());
 
 app.use('/api', teachers);
 

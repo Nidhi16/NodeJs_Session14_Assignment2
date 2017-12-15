@@ -6,7 +6,6 @@ var teachers = require('./routes/teacher');
 var app = express();
 
 //connect to our database
-//Ideally you will obtain DB details from a config file
 
 var dbName='teacherDB';
 

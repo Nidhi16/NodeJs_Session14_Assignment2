@@ -1,6 +1,7 @@
 var mongoose=require('mongoose');
 var Schema=mongoose.Schema;
 
+// create teacher model
 var teacherSchema = new Schema({
     name: String,
     age: Number,
